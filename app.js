@@ -4,10 +4,10 @@ const DECKS = {
 };
 const $ = id => document.getElementById(id);
 const els = {
-  deck:$("#deckSelect"), mode:$("#modeSelect"), card:$("#card"), label:$("#cardLabel"), text:$("#cardText"),
-  counter:$("#counter"), known:$("#knownCount"), missed:$("#missedCount"), progress:$("#progressBar"),
-  next:$("#nextBtn"), prev:$("#prevBtn"), knownBtn:$("#knownBtn"), missedBtn:$("#missedBtn"),
-  shuffle:$("#shuffleBtn"), reset:$("#resetBtn")
+  deck:$("deckSelect"), mode:$("modeSelect"), card:$("card"), label:$("cardLabel"), text:$("cardText"),
+  counter:$("counter"), known:$("knownCount"), missed:$("missedCount"), progress:$("progressBar"),
+  next:$("nextBtn"), prev:$("prevBtn"), knownBtn:$("knownBtn"), missedBtn:$("missedBtn"),
+  shuffle:$("shuffleBtn"), reset:$("resetBtn")
 };
 let deckName = Object.keys(DECKS)[0];
 let baseCards = DECKS[deckName].map((c,i)=>({...c,id:`${deckName}-${i}`}));

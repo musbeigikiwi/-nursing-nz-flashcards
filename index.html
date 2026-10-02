@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Nursing New Zealand — Flashcards</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">NURSING NEW ZEALAND 🇳🇿</p>
+        <h1>Smart Flashcards</h1>
+      </div>
+      <button id="resetBtn" class="ghost">Reset</button>
+    </header>
+
+    <section class="controls" aria-label="Study controls">
+      <label>
+        Deck
+        <select id="deckSelect"></select>
+      </label>
+      <label>
+        Mode
+        <select id="modeSelect">
+          <option value="all">All cards</option>
+          <option value="missed">Review mistakes</option>
+        </select>
+      </label>
+      <button id="shuffleBtn" class="secondary">Shuffle</button>
+    </section>
+
+    <section class="status">
+      <div>
+        <span id="counter">1 / 1</span>
+        <span class="dot">•</span>
+        <span id="knownCount">0 known</span>
+        <span class="dot">•</span>
+        <span id="missedCount">0 missed</span>
+      </div>
+      <div class="progress-track" aria-label="Progress">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </section>
+
+    <button id="card" class="flashcard" aria-live="polite">
+      <span id="cardLabel" class="card-label">QUESTION</span>
+      <span id="cardText" class="card-text"></span>
+      <span class="tap-hint">Tap / Space / Enter to flip</span>
+    </button>
+
+    <section class="rating-row">
+      <button id="missedBtn" class="danger">✕ Don’t know</button>
+      <button id="knownBtn" class="success">✓ Know</button>
+    </section>
+
+    <section class="nav-row">
+      <button id="prevBtn" class="secondary">← Previous</button>
+      <button id="nextBtn" class="primary">Next →</button>
+    </section>
+
+    <p class="keyboard-help">Keyboard: Space/Enter = flip · ←/→ = move · 1 = missed · 2 = known</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

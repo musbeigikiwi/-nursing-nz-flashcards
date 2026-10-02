@@ -1,49 +1,30 @@
 const DECKS = {
-  "Chapter 13 — Endocrine": [
-    {q:"What is homeostasis?",a:"Maintenance of a relatively stable internal environment."},
-    {q:"Where is the pituitary gland located?",a:"At the base of the brain, below the hypothalamus."},
-    {q:"Which hormone lowers blood glucose?",a:"Insulin."},
-    {q:"Which hormone raises blood glucose?",a:"Glucagon."},
-    {q:"What is insulin’s main target?",a:"Most body cells, especially liver, muscle and adipose tissue."},
-    {q:"What triggers insulin release?",a:"A rise in blood glucose."},
-    {q:"What triggers glucagon release?",a:"A fall in blood glucose."},
-    {q:"Negative feedback does what?",a:"Reverses a change to return conditions toward a set point."},
-    {q:"Give one positive feedback example.",a:"Oxytocin intensifying uterine contractions during labour."},
-    {q:"How is body temperature controlled?",a:"Negative feedback via the hypothalamus and effectors."}
-  ]
+  "Chapter 9.0 — Musculoskeletal (120 cards)": [{"q":"What does the muscular system provide?","a":"Body movement."},{"q":"How does muscle help posture?","a":"Skeletal muscles continuously adjust against gravity."},{"q":"How do muscles stabilise joints?","a":"Skeletal muscles reinforce and support joints."},{"q":"How do muscles generate heat?","a":"ATP use during contraction releases heat."},{"q":"How do skeletal muscles protect organs?","a":"They form protective muscular walls around organs."},{"q":"How do smooth muscles regulate passage?","a":"They form valves and control flow through organs."},{"q":"What is muscle specialised for?","a":"Contraction."},{"q":"Which muscle type moves the body?","a":"Skeletal muscle."},{"q":"Which muscle type allows facial expression?","a":"Skeletal muscle."},{"q":"Which muscle type pumps blood?","a":"Cardiac muscle."},{"q":"Which muscle type moves substances through hollow organs?","a":"Smooth muscle."},{"q":"How do skeletal muscles express emotion?","a":"By moving skin for expressions like smiling."},{"q":"How is smooth muscle often arranged in hollow organs?","a":"In circular and longitudinal layers."},{"q":"What does alternating smooth-muscle contraction cause?","a":"Changes in organ shape and size."},{"q":"What is peristalsis?","a":"Wave-like smooth-muscle movement through the digestive tract."},{"q":"What maintains blood pressure with cardiac muscle?","a":"Smooth muscle around blood vessels."},{"q":"Why does shivering warm the body?","a":"Rapid contractions use ATP and release heat."},{"q":"What happens to body temperature during shivering?","a":"It rises toward normal."},{"q":"What are the six naming features of muscles?","a":"Location, shape, size, fibre direction, origins, and action."},{"q":"Which muscle overlies the temporal bone?","a":"Temporalis."},{"q":"What structures name sternocleidomastoid?","a":"Sternum, clavicle, and mastoid process."},{"q":"What shape does deltoid describe?","a":"Triangular."},{"q":"What does 'maximus' mean?","a":"Largest."},{"q":"What does 'minimus' mean?","a":"Smallest."},{"q":"What does 'longus' mean?","a":"Long."},{"q":"What does 'rectus' mean for fibre direction?","a":"Fibres run parallel."},{"q":"What does 'oblique' mean for fibre direction?","a":"Fibres run at an angle."},{"q":"What does 'transverse' mean for fibre direction?","a":"Fibres run perpendicular."},{"q":"How many origins does biceps have?","a":"Two."},{"q":"How many origins does triceps have?","a":"Three."},{"q":"How many origins does quadriceps have?","a":"Four."},{"q":"What is a muscle origin?","a":"Attachment to the bone that does not move."},{"q":"What does a flexor do?","a":"Produces flexion."},{"q":"What does an extensor do?","a":"Produces extension."},{"q":"What does an adductor do?","a":"Produces adduction."},{"q":"What does an abductor do?","a":"Produces abduction."},{"q":"Why is gluteus maximus called 'maximus'?","a":"It is the largest gluteal muscle."},{"q":"Where is biceps brachii located?","a":"Front of the upper arm."},{"q":"Where is triceps brachii located?","a":"Back of the upper arm."},{"q":"Where is the deltoid located?","a":"Shoulder."},{"q":"Where is trapezius located?","a":"Upper back and neck."},{"q":"Where is the masseter located?","a":"Side of the jaw."},{"q":"Where is pectoralis major located?","a":"Chest."},{"q":"Where are the quadriceps located?","a":"Front of the thigh."},{"q":"Where are the hamstrings located?","a":"Back of the thigh."},{"q":"Where is gastrocnemius located?","a":"Back of the lower leg, the calf."},{"q":"Where is gluteus maximus located?","a":"Buttocks."},{"q":"Which listed muscle is on the front of the upper arm?","a":"Biceps brachii."},{"q":"Which listed muscle is on the back of the upper arm?","a":"Triceps brachii."},{"q":"Which listed muscle covers the shoulder?","a":"Deltoid."},{"q":"Which listed muscle is in the upper back and neck?","a":"Trapezius."},{"q":"Which listed muscle is used for chewing at the jaw?","a":"Masseter."},{"q":"Which listed muscle is on the chest?","a":"Pectoralis major."},{"q":"Which listed muscle group is on the front thigh?","a":"Quadriceps."},{"q":"Which listed muscle group is on the back thigh?","a":"Hamstrings."},{"q":"Which listed muscle forms the calf?","a":"Gastrocnemius."},{"q":"Which listed muscle is the large buttock muscle?","a":"Gluteus maximus."},{"q":"How many bones are in the adult skeleton?","a":"206."},{"q":"What four main components make up the skeletal system?","a":"Bones, joints, cartilages, and ligaments."},{"q":"What are ligaments?","a":"Fibrous cords linking bones together."},{"q":"What forms the internal frame of the body?","a":"The skeletal system."},{"q":"What systems work together to allow body movement?","a":"Skeletal and muscular systems."},{"q":"What is the support function of bone?","a":"Bones form the body's framework."},{"q":"What is the protection function of bone?","a":"Bones protect soft organs."},{"q":"What does the rib cage protect?","a":"Thoracic organs such as heart and lungs."},{"q":"What protects the brain?","a":"Fused skull bones of the cranium."},{"q":"How do bones enable movement?","a":"Muscles pull on bones when they contract."},{"q":"Which minerals are stored in bone?","a":"Calcium and phosphorus."},{"q":"Why must blood calcium be tightly regulated?","a":"For nerve transmission, muscle contraction, and clotting."},{"q":"How does bone act like a calcium bank?","a":"It stores excess calcium and releases it when blood calcium falls."},{"q":"Where is fat stored in bone?","a":"Yellow marrow in the internal cavity."},{"q":"Where does haematopoiesis occur?","a":"Red bone marrow."},{"q":"What is haematopoiesis?","a":"Blood cell formation."},{"q":"Which marrow stores fat?","a":"Yellow marrow."},{"q":"Which marrow forms blood cells?","a":"Red marrow."},{"q":"What type of tissue is cartilage?","a":"Connective tissue."},{"q":"Is cartilage harder or more flexible than bone?","a":"More flexible and less hard than bone."},{"q":"What supports the trachea?","a":"Cartilage rings."},{"q":"What tissue helps form the shape of ears and nose?","a":"Cartilage."},{"q":"What attaches ribs to the sternum?","a":"Cartilage."},{"q":"What cushions between vertebrae?","a":"Cartilage discs."},{"q":"What are the main functions of bone?","a":"Support, protection, movement, storage, and blood cell formation."},{"q":"What does bone store besides minerals?","a":"Fat in yellow marrow."},{"q":"What does the axial skeleton run along?","a":"The body's midline axis."},{"q":"What structures make up the axial skeleton?","a":"Skull, vertebral column, ribs, and sternum."},{"q":"What structures make up the appendicular skeleton?","a":"Limbs, shoulder girdle, and pelvic girdle."},{"q":"What is an easy way to remember appendicular skeleton?","a":"Limbs plus structures attaching them to the body."},{"q":"Which skeleton contains the skull?","a":"Axial skeleton."},{"q":"Which skeleton contains the vertebral column?","a":"Axial skeleton."},{"q":"Which skeleton contains the ribs?","a":"Axial skeleton."},{"q":"Which skeleton contains the sternum?","a":"Axial skeleton."},{"q":"Which skeleton contains the upper limbs?","a":"Appendicular skeleton."},{"q":"Which skeleton contains the lower limbs?","a":"Appendicular skeleton."},{"q":"Which skeleton contains the shoulder girdle?","a":"Appendicular skeleton."},{"q":"Which skeleton contains the pelvic girdle?","a":"Appendicular skeleton."},{"q":"Is the cranium axial or appendicular?","a":"Axial."},{"q":"Are facial bones axial or appendicular?","a":"Axial."},{"q":"Is the sacrum axial or appendicular?","a":"Axial."},{"q":"Is the clavicle axial or appendicular?","a":"Appendicular."},{"q":"Is the scapula axial or appendicular?","a":"Appendicular."},{"q":"Is the humerus axial or appendicular?","a":"Appendicular."},{"q":"Is the radius axial or appendicular?","a":"Appendicular."},{"q":"Is the ulna axial or appendicular?","a":"Appendicular."},{"q":"Are carpals axial or appendicular?","a":"Appendicular."},{"q":"Are metacarpals axial or appendicular?","a":"Appendicular."},{"q":"Are hand phalanges axial or appendicular?","a":"Appendicular."},{"q":"Is the femur axial or appendicular?","a":"Appendicular."},{"q":"Is the patella axial or appendicular?","a":"Appendicular."},{"q":"Is the tibia axial or appendicular?","a":"Appendicular."},{"q":"Is the fibula axial or appendicular?","a":"Appendicular."},{"q":"Are tarsals axial or appendicular?","a":"Appendicular."},{"q":"Are metatarsals axial or appendicular?","a":"Appendicular."},{"q":"Are foot phalanges axial or appendicular?","a":"Appendicular."},{"q":"In anatomical position, where should the thumb point?","a":"Lateral to the fingers."},{"q":"Why was the shown appendicular skeleton not anatomical?","a":"The right hand/thumb position was incorrect."},{"q":"What is the major difference between axial and appendicular skeletons?","a":"Axial forms the central axis; appendicular includes limbs and girdles."},{"q":"Which major appendicular bone is in the upper arm?","a":"Humerus."},{"q":"Which two major appendicular bones are in the forearm?","a":"Radius and ulna."},{"q":"Which major appendicular bone is in the thigh?","a":"Femur."},{"q":"Which two major appendicular bones are in the lower leg?","a":"Tibia and fibula."}],
+  "Chapter 13 — Endocrine (10 sample cards)": [{"q":"What is homeostasis?","a":"Maintenance of a relatively stable internal environment."},{"q":"Where is the pituitary gland located?","a":"At the base of the brain, below the hypothalamus."},{"q":"Which hormone lowers blood glucose?","a":"Insulin."},{"q":"Which hormone raises blood glucose?","a":"Glucagon."},{"q":"What is insulin’s main target?","a":"Most body cells, especially liver, muscle and adipose tissue."},{"q":"What triggers insulin release?","a":"A rise in blood glucose."},{"q":"What triggers glucagon release?","a":"A fall in blood glucose."},{"q":"Negative feedback does what?","a":"Reverses a change to return conditions toward a set point."},{"q":"Give one positive feedback example.","a":"Oxytocin intensifying uterine contractions during labour."},{"q":"How is body temperature controlled?","a":"Negative feedback via the hypothalamus and effectors."}]
 };
 const $ = id => document.getElementById(id);
 const els = {
-  deck:$("deckSelect"), mode:$("modeSelect"), card:$("card"), label:$("cardLabel"), text:$("cardText"),
-  counter:$("counter"), known:$("knownCount"), missed:$("missedCount"), progress:$("progressBar"),
-  next:$("nextBtn"), prev:$("prevBtn"), knownBtn:$("knownBtn"), missedBtn:$("missedBtn"),
-  shuffle:$("shuffleBtn"), reset:$("resetBtn")
+  deck:$("#deckSelect"), mode:$("#modeSelect"), card:$("#card"), label:$("#cardLabel"), text:$("#cardText"),
+  counter:$("#counter"), known:$("#knownCount"), missed:$("#missedCount"), progress:$("#progressBar"),
+  next:$("#nextBtn"), prev:$("#prevBtn"), knownBtn:$("#knownBtn"), missedBtn:$("#missedBtn"),
+  shuffle:$("#shuffleBtn"), reset:$("#resetBtn")
 };
 let deckName = Object.keys(DECKS)[0];
 let baseCards = DECKS[deckName].map((c,i)=>({...c,id:`${deckName}-${i}`}));
 let cards = [...baseCards], index = 0, flipped = false;
 let ratings = JSON.parse(localStorage.getItem("nnz-flashcard-ratings") || "{}");
-
 function save(){localStorage.setItem("nnz-flashcard-ratings",JSON.stringify(ratings))}
-function fillDecks(){
-  els.deck.innerHTML = Object.keys(DECKS).map(n=>`<option>${n}</option>`).join("");
-}
+function fillDecks(){els.deck.innerHTML = Object.keys(DECKS).map(n=>`<option>${n}</option>`).join("")}
 function current(){return cards[index]}
-function filtered(){
-  const all=baseCards;
-  if(els.mode.value==="missed") return all.filter(c=>ratings[c.id]==="missed");
-  return all;
-}
-function rebuild(){
-  cards=filtered(); index=0; flipped=false; render();
-}
+function filtered(){const all=baseCards;if(els.mode.value==="missed") return all.filter(c=>ratings[c.id]==="missed");return all}
+function rebuild(){cards=filtered();index=0;flipped=false;render()}
 function render(){
   if(!cards.length){
     els.label.textContent="ALL CLEAR";
     els.text.textContent=els.mode.value==="missed"?"No missed cards. Great work!":"No cards in this deck.";
-    els.counter.textContent="0 / 0"; els.progress.style.width="0%";
+    els.counter.textContent="0 / 0";els.progress.style.width="0%";
     els.next.disabled=els.prev.disabled=els.knownBtn.disabled=els.missedBtn.disabled=true;
-    updateStats(); return;
+    updateStats();return;
   }
   els.next.disabled=els.prev.disabled=els.knownBtn.disabled=els.missedBtn.disabled=false;
   const c=current();
@@ -56,39 +37,28 @@ function render(){
 function updateStats(){
   const known=baseCards.filter(c=>ratings[c.id]==="known").length;
   const missed=baseCards.filter(c=>ratings[c.id]==="missed").length;
-  els.known.textContent=`${known} known`; els.missed.textContent=`${missed} missed`;
+  els.known.textContent=`${known} known`;els.missed.textContent=`${missed} missed`;
 }
 function flip(){if(cards.length){flipped=!flipped;render()}}
-function move(step){
-  if(!cards.length)return;
-  index=(index+step+cards.length)%cards.length; flipped=false; render();
-}
+function move(step){if(!cards.length)return;index=(index+step+cards.length)%cards.length;flipped=false;render()}
 function rate(value){
   if(!cards.length)return;
-  ratings[current().id]=value; save();
-  if(els.mode.value==="missed" && value==="known") rebuild(); else move(1);
+  ratings[current().id]=value;save();
+  if(els.mode.value==="missed"&&value==="known")rebuild();else move(1);
 }
 els.card.onclick=flip;
-els.next.onclick=()=>move(1); els.prev.onclick=()=>move(-1);
-els.knownBtn.onclick=()=>rate("known"); els.missedBtn.onclick=()=>rate("missed");
+els.next.onclick=()=>move(1);els.prev.onclick=()=>move(-1);
+els.knownBtn.onclick=()=>rate("known");els.missedBtn.onclick=()=>rate("missed");
 els.mode.onchange=rebuild;
-els.deck.onchange=()=>{
-  deckName=els.deck.value;
-  baseCards=DECKS[deckName].map((c,i)=>({...c,id:`${deckName}-${i}`}));
-  rebuild();
-};
-els.shuffle.onclick=()=>{
-  cards=[...filtered()].sort(()=>Math.random()-.5); index=0; flipped=false; render();
-};
-els.reset.onclick=()=>{
-  if(confirm("Reset all saved progress on this device?")){ratings={};save();rebuild()}
-};
+els.deck.onchange=()=>{deckName=els.deck.value;baseCards=DECKS[deckName].map((c,i)=>({...c,id:`${deckName}-${i}`}));rebuild()};
+els.shuffle.onclick=()=>{cards=[...filtered()].sort(()=>Math.random()-.5);index=0;flipped=false;render()};
+els.reset.onclick=()=>{if(confirm("Reset all saved progress on this device?")){ratings={};save();rebuild()}};
 document.addEventListener("keydown",e=>{
-  if([" ","Enter","ArrowRight","ArrowLeft","1","2"].includes(e.key)) e.preventDefault();
-  if(e.key===" "||e.key==="Enter") flip();
-  if(e.key==="ArrowRight") move(1);
-  if(e.key==="ArrowLeft") move(-1);
-  if(e.key==="1") rate("missed");
-  if(e.key==="2") rate("known");
+  if([" ","Enter","ArrowRight","ArrowLeft","1","2"].includes(e.key))e.preventDefault();
+  if(e.key===" "||e.key==="Enter")flip();
+  if(e.key==="ArrowRight")move(1);
+  if(e.key==="ArrowLeft")move(-1);
+  if(e.key==="1")rate("missed");
+  if(e.key==="2")rate("known");
 });
-fillDecks(); render();
+fillDecks();render();
